@@ -1,0 +1,24 @@
+{
+  "name": "budgetbuddy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal finance management with Supabase and Express",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "zod": "^4.1.5"
+  }
+}
